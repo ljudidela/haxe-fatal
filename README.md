@@ -1,29 +1,25 @@
-# Fatal Labyrinth Clone (Haxe/Heaps)
+# Fatal Labyrinth Clone (Haxe + Heaps)
 
 A roguelike dungeon crawler inspired by Fatal Labyrinth.
 
-## Prerequisites
+## Requirements
+- Haxe 4.3+
+- HashLink
+- Heaps.io
 
-1. Install Haxe 4.3+
-2. Install HashLink
-3. Install libraries:
-   ```bash
-   haxelib install heaps
-   haxelib install hlsdl
-   ```
-
-## Building and Running
-
+## Setup
 ```bash
-# Compile
-haxe compile.hxml
+haxelib install heaps
+haxelib install hlsdl
+```
 
-# Run
+## Build & Run
+```bash
+haxe compile.hxml
 hl bin/game.hl
 ```
 
 ## Controls
-
-- **Arrow Keys**: Move / Navigate Menu
-- **Enter**: Select / Next Level
-- **ESC**: Back / Menu
+- **Arrows**: Move / Attack
+- **Enter**: Select in Menu
+- **ESC**: Pause / Back
