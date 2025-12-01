@@ -1,0 +1,6 @@
+bin/
+.haxelib/
+.vscode/
+*.hxml.user
+.DS_Store
+dump/
