@@ -1,14 +1,15 @@
 package;
 
 class Const {
-    public static inline var TILE_SIZE:Int = 32;
-    public static inline var GRID_W:Int = 40;
-    public static inline var GRID_H:Int = 22;
+    public static final TILE_SIZE = 32;
+    public static final GRID_W = 30;
+    public static final GRID_H = 20;
+    public static final UI_WIDTH = 200;
     
-    public static inline var COLOR_BG:Int = 0x111111;
-    public static inline var COLOR_WALL:Int = 0x444455;
-    public static inline var COLOR_FLOOR:Int = 0x222233;
-    public static inline var COLOR_PLAYER:Int = 0x00FF00;
-    public static inline var COLOR_STAIRS:Int = 0xFFFF00;
-    public static inline var COLOR_UI_BG:Int = 0x000000;
+    public static final COLOR_BG = 0xFF111111;
+    public static final COLOR_WALL = 0xFF444444;
+    public static final COLOR_FLOOR = 0xFF222222;
+    public static final COLOR_PLAYER = 0xFF00FF00;
+    public static final COLOR_ENEMY = 0xFFFF0000;
+    public static final COLOR_STAIRS = 0xFFFFFF00;
 }
